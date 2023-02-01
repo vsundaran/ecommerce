@@ -1,0 +1,77 @@
+@media (max-width :2000px) {
+    h1{
+        font-size: 1.8rem;
+       
+    }
+  }
+  
+  
+  @media (max-width :991px) {
+    h1{
+        font-size: 1.7rem;
+    }
+    p{
+      font-size: 1.1rem;
+    }
+    .tags{
+      display: none;
+    }
+    .foot-navbar{
+      display: flex;
+    }
+    .buying-product-details{
+      height: 110vh;
+    }
+  }
+
+  /* it is for cards only dont touch */
+
+  @media (max-width :1425px) {
+    .card{
+      width: 18%;
+    }
+  }
+
+  @media (max-width :1216px) {
+    .card{
+      width: 20%;
+    }
+  }
+
+  @media (max-width :1075px) {
+    .card{
+      width: 25%;
+    }
+  }
+  @media (max-width :860px) {
+    .card{
+      width: 30%;
+    }
+  }
+  @media (max-width :727px) {
+    .card{
+      width: 40%;
+    }
+  }
+  @media (max-width :540px) {
+    .card{
+      width: 70%;
+    }
+  }
+  @media (max-width :322px) {
+    .card{
+      width: 100%;
+    }
+  }
+
+ /* it is for cards only dont touch */
+  
+  @media (max-width :500px) {
+    h1{
+        font-size: 1.2rem;
+    }
+    p{
+      font-size: 0.9rem;
+    }
+  }
+  

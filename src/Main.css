@@ -1,0 +1,133 @@
+:root{
+  --padding:15px 25px;
+  --input-height:30px;
+  --font-small:0.8rem;
+  --font-medium:1.1rem;
+  --border-radius:10px;
+  --padding-margin:1rem;
+  --button-danger:red;
+  --classical-width:100%;
+  --heading-font-size:1.5rem;
+  --link-button-color:#1a73e8;
+  --font-color-dark-heigh:#333;
+  --font-color-low:rgb(156, 156, 156);
+  --font-color-dark-low:rgb(86, 77, 77);
+  --parent-background-color : #282c34;
+  --font-color-high:rgb(241, 241, 241);
+  --font-color-medium:rgb(199, 199, 199);
+  --parent-background-white-color : #f8f8f8;
+  --box-shadow: rgba(249, 249, 249, 0.2) 0px 7px 29px 0px;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+h1{
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.parent-wrapper{
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--parent-background-color);
+}
+
+
+.login-wrapper{
+  width: 400px;
+  padding: var(--padding);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  background-color: var(--parent-background-white-color);
+}
+
+.head-line{
+  padding: 0;
+  margin: 5px 0px;
+  text-align: center;
+  color: var(--font-color-dark-heigh);
+  font-size: var(--heading-font-size);
+}
+.instruction{
+  margin: 0;
+  text-align: center;
+  color: var(--font-color-dark-low);
+}
+.sign{
+  margin: 0px 5px;
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--link-button-color);
+}
+
+.label{
+  margin: 0px;
+  color: var(--font-color-dark-low);
+}
+.label-checked{
+  display: inline;
+  color: var(--font-color-dark-low);
+}
+
+
+.input-filed{
+  outline: none;
+  padding-left: 8px;
+  border-radius: 3px;
+  width:calc(100% - 8px);
+  height: var(--input-height);
+  font-size: var(--font-medium);
+  color: var(--font-color-dark-hgh);
+  border: 1px solid rgb(156, 156, 156);
+}
+
+.create-acc{
+  cursor: pointer;
+  color: var(--link-button-color);
+}
+
+.next{
+  border: none;
+  float: right;
+  width: 100px;
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0px 20px;
+  border-radius: 3px;
+  background-color: #253e71;
+  color: var(--font-color-high);
+}
+.link{
+  text-decoration: none;
+}
+
+.lable-wrapper{
+  margin: 20px 0px 0px 0px;
+}
+
+.margin{
+  margin-top: 20px;
+}
+
+.checkBox{
+  margin: 0px 10px;
+}
+.orange{
+  background-color: #fb641b;
+}
